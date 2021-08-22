@@ -1,8 +1,7 @@
 | Operating System  | Version | Support |
 | ------------- | ------------- |
-| Ubuntu  | 14.04  | 🔴 * |
-|   | 16.04  | 🔴 * | 
-|   | 18.04  | ✅ |
-|   | 20.04 | ✅ |
+| Ubuntu  | 14.04  | 🔴 *
+|   | 16.04  | 🔴 * 
+|   | 18.04  | ✅ 
+|   | 20.04 | ✅
 Some Features are not supported in the versions that marked with  *
-
