@@ -28,7 +28,7 @@ _Some Features are not supported in the versions that marked with  *_
 ## How to use 
 
 ```bash
-wget https://raw.githubusercontent.com/icdmkg2/Installer/main/runme.sh && bash runme.sh
+wget https://raw.githubusercontent.com/icdmkg2/AutoInstaller/main/runme.sh && bash runme.sh
 ```
 
 
