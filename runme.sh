@@ -19,7 +19,7 @@ function install-cockpit() {
 function install-ubuntudesk() {
     echo ""
     echo ""
-	sudo apt update -y && sudo apt install tasksel -y && sudo tasksel install ubuntu-desktop && sudo reboot
+	wget https://raw.githubusercontent.com/icdmkg2/AutoInstaller/main/desktop-env-installer.sh && bash dekstop-env-installer.sh
     echo ""
 }
 
