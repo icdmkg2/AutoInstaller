@@ -1,8 +1,8 @@
 #!/bin/bash
-
+#sudo apt-get update && sudo apt install gdm3 && sudo apt install tasksel && sudo tasksel install ubuntu-desktop && sudo apt install tightvncserver && vncserver && vncserver -kill :1 && cd ~/.vnc/ && rm xstartup && wget https://raw.githubusercontent.com/icdmkg2/AutoInstaller/main/vnc/gnome/xstartup && sudo reboot 
 function gnome() {
     echo ""
-	sudo apt-get update && sudo apt install gdm3 && sudo apt install tasksel && sudo tasksel install ubuntu-desktop && sudo apt install tightvncserver && vncserver && vncserver -kill :1 && cd ~/.vnc/ && rm xstartup && wget https://raw.githubusercontent.com/icdmkg2/AutoInstaller/main/vnc/gnome/xstartup && sudo reboot 
+	coming soon 
 	echo ""
 }
 
