@@ -8,7 +8,7 @@ function gnome() {
 
 function mate() {
     echo ""
-	sudo apt-get update -y && sudo apt install lightdm -y && sudo apt install tasksel -y && sudo tasksel install ubuntu-mate-desktop -y  && sudo apt install tightvncserver && vncserver && vncserver -kill :1 && rm xstartup && cd ~/.vnc/ && sudo wget https://raw.githubusercontent.com/icdmkg2/AutoInstaller/main/vnc/mate/xstartup && chmod +x xstartup && sudo reboot
+	sudo apt-get update -y && sudo apt install lightdm -y && sudo apt install tasksel -y && sudo tasksel install ubuntu-mate-desktop  && sudo apt install tightvncserver -y && vncserver && vncserver -kill :1 && rm xstartup && cd ~/.vnc/ && sudo wget https://raw.githubusercontent.com/icdmkg2/AutoInstaller/main/vnc/mate/xstartup && chmod +x xstartup && sudo reboot
 	echo ""
 }
 
