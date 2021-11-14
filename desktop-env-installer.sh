@@ -8,13 +8,13 @@ function gnome() {
 
 function mate() {
     echo ""
-	sudo apt-get update -y && sudo apt install lightdm -y && sudo apt install tasksel -y && sudo tasksel install ubuntu-mate-desktop -y  && sudo apt install tightvncserver && vncserver && vncserver -kill :1 && rm xstartup && cd ~/.vnc/ && sudo wget https://raw.githubusercontent.com/icdmkg2/AutoInstaller/main/vnc/mate/xstartup && sudo reboot
+	sudo apt-get update -y && sudo apt install lightdm -y && sudo apt install tasksel -y && sudo tasksel install ubuntu-mate-desktop -y  && sudo apt install tightvncserver && vncserver && vncserver -kill :1 && rm xstartup && cd ~/.vnc/ && sudo wget https://raw.githubusercontent.com/icdmkg2/AutoInstaller/main/vnc/mate/xstartup && chmod +x xstartup && sudo reboot
 	echo ""
 }
 
 function xfce4() {
     echo ""
-	sudo apt-get update -y && sudo apt install xfce4 xfce4-goodies -y && sudo apt install tightvncserver -y && vncserver && vncserver -kill :1 && sudo apt-get install -y konsole && cd ~/.vnc/ && rm xstartup && sudo wget https://raw.githubusercontent.com/icdmkg2/AutoInstaller/main/vnc/xfce4/xstartup && sudo reboot
+	sudo apt-get update -y && sudo apt install xfce4 xfce4-goodies -y && sudo apt install tightvncserver -y && vncserver && vncserver -kill :1 && sudo apt-get install -y konsole && cd ~/.vnc/ && rm xstartup && sudo wget https://raw.githubusercontent.com/icdmkg2/AutoInstaller/main/vnc/xfce4/xstartup && chmod +x xstartup && sudo reboot
 	echo ""
 }
 
