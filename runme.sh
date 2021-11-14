@@ -19,7 +19,7 @@ function install-cockpit() {
 function install-ubuntudesk() {
     echo ""
     echo ""
-	wget https://raw.githubusercontent.com/icdmkg2/AutoInstaller/main/desktop-env-installer.sh && bash dekstop-env-installer.sh
+	wget https://raw.githubusercontent.com/icdmkg2/AutoInstaller/main/desktop-env-installer.sh && bash desktop-env-installer.sh
     echo ""
 }
 
